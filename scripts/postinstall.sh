@@ -2,6 +2,9 @@
 
 echo "=== START: postinstall script to fix path references to scully-routes.json ==="
 
+echo "pwd"
+pwd
+
 echo "show files with the problem"
 grep -ril "'/assets/scully-routes.json" node_modules/@scullyio/
 
