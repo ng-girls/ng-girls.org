@@ -14,6 +14,6 @@ echo "show files with the problem"
 grep -ril "'/assets/scully-routes.json" node_modules/@scullyio/
 
 echo "show files with fixed problem"
-grep -ril "'/assets/scully-routes.json" node_modules/@scullyio/
+grep -ril "'./assets/scully-routes.json" node_modules/@scullyio/
 
 echo "=== END: postinstall === "
